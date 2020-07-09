@@ -4,6 +4,7 @@ const { join, resolve } = require('path')
 const { DefinePlugin } = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 const paths = {
     src: resolve(__dirname, 'src'),
@@ -75,7 +76,7 @@ module.exports = (env, argv) => {
             ],
         },
         "plugins": [
-            // new CleanWebpackPlugin(),
+            new CleanWebpackPlugin(),
             new HtmlWebpackPlugin({
                 template: join(paths.src, 'index.html'),
                 filename: 'index.html',

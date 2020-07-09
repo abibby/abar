@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "sideEffects": false,
   "scripts": {
     "build": "webpack --mode production --progress",
     "dev": "webpack-dev-server",
@@ -16,6 +15,7 @@
     "@types/webpack": "^4.41.21",
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.6.0",
     "eslint": "^7.4.0",
     "eslint-loader": "^4.0.2",
@@ -30,6 +30,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@babylonjs/core": "^4.2.0-alpha.23",
     "babylonjs": "^4.2.0-alpha.23"
   }
 }
