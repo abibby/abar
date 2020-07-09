@@ -33,7 +33,7 @@ function createScene(): Scene {
 
     const camera = new UniversalCamera("UniversalCamera", new Vector3(0, 2, -10), scene)
     camera.speed = 0.2
-    camera.invertRotation = true
+    // camera.invertRotation = true
     camera.checkCollisions = true
     camera.applyGravity = true
     // Set the player size, the camera's ellipsoid. 
