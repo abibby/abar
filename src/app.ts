@@ -47,6 +47,7 @@ function createScene(): Scene {
     new HemisphericLight('light1', new Vector3(0, 1, 0), scene)
     // Create a built-in "sphere" shape; its constructor takes 6 params: name, segment, diameter, scene, updatable, sideOrientation
     const sphere = Mesh.CreateSphere('sphere1', 16, 1, scene, false, Mesh.FRONTSIDE)
+    sphere.checkCollisions = true
     // Move the sphere upward 1/2 of its height
     sphere.position.y = 1
     // Create a built-in "ground" shape; its constructor takes 6 params : name, width, height, subdivision, scene, updatable

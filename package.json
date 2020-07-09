@@ -30,7 +30,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@babylonjs/core": "^4.2.0-alpha.23",
-    "babylonjs": "^4.2.0-alpha.23"
+    "@babylonjs/core": "^4.2.0-alpha.23"
   }
 }
