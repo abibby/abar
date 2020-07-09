@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>abar-logo</title>
+    <style>
+        .bar {
+            stroke: #000;
+            stroke-width: 4;
+            transform: translate(2px, 0px);
+        }
+        .line {
+            stroke: #000;
+            stroke-width: 1;
+            fill: none;
+        }
+    </style>
+    <g id="A1">
+        <line class="bar" x1="0" y1="0" x2="0" y2="80" />
+        <line class="line" x1="4" y1="0" x2="20" y2="80" />
+        <line class="line" x1="0" y1="35" x2="11" y2="35" />
+    </g>
+    <g id="B" style="transform: translate(20px, 0px);">
+        <line class="bar" x1="0" y1="0" x2="0" y2="80" />
+        <path class="line" d="M 0 0 C 20 0, 20 35, 0 35 C 25 35, 25 80, 0 80"/>
+    </g>
+    <g id="A2" style="transform: translate(40px, 0px);">
+        <line class="bar" x1="0" y1="0" x2="0" y2="80" />
+        <line class="line" x1="4" y1="0" x2="20" y2="80" />
+        <line class="line" x1="0" y1="35" x2="11" y2="35" />
+    </g>
+    <g id="R" style="transform: translate(60px, 0px);">
+        <line class="bar" x1="0" y1="0" x2="0" y2="80" />
+        <path class="line" d="M 0 0 C 20 0, 20 35, 0 35 C 20 35, 19 60, 19 80"/>
+    </g>
+</svg>
