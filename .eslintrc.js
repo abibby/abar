@@ -11,8 +11,8 @@ module.exports = {
     ],
     settings: {
         "linkComponents": [
-            { "name": "Link", "linkAttribute": "to" }
-        ]
+            { "name": "Link", "linkAttribute": "to" },
+        ],
     },
     rules: {
         '@typescript-eslint/no-unused-vars': ['warn', { varsIgnorePattern: '^h$' }],
@@ -28,5 +28,5 @@ module.exports = {
         'semi': ["warn", "never"],
         "comma-dangle": ["warn", "always-multiline"],
         "indent": ["warn", 4],
-    }
-};
+    },
+}
